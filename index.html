@@ -1,26 +1,39 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Shivam Kumar Gupta | Developer Portfolio</title>
+    <meta name="description"
+        content="Shivam Kumar Gupta — CSE (AI & ML) student, aspiring software developer and curious technologist.">
+
+    <meta name="theme-color" content="#101112">
+
+    <title>Shivam Kumar Gupta | Developer & Curious Technologist</title>
 
     <link rel="stylesheet" href="index.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="navbar">
-        <a href="#" class="logo">SKG<span>.</span></a>
+  
 
-        <nav>
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            SKG<span>.</span>
+        </a>
+
+        <nav aria-label="Main navigation">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
@@ -31,252 +44,355 @@
         <a href="mailto:shivamkumargupta2048@gmail.com" class="nav-btn">
             Let's Talk
         </a>
+
     </header>
 
 
-   
-    <section class="hero" id="home">
-
-        <div class="hero-content">
-
-            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
-
-            <h1>
-                Hi, I'm <span>Shivam Kumar Gupta</span>
-            </h1>
-
-            <h2>Aspiring Software Developer</h2>
-
-            <p class="hero-description">
-                A passionate CSE (AI & ML) student exploring
-                Artificial Intelligence, Software Development
-                and emerging technologies. I love learning,
-                building and turning ideas into reality.
-            </p>
-
-            <div class="hero-buttons">
-                <a href="#projects" class="primary-btn">
-                    Explore My Work →
-                </a>
-
-                <a href="#contact" class="secondary-btn">
-                    Contact Me
-                </a>
-            </div>
-
-            <div class="social-links">
-                <a href="https://github.com/shivpartapsinghania" target="_blank">GitHub ↗</a>
-
-                <a href="https://www.linkedin.com/in/shivam-kumar-gupta-02b748434/" target="_blank">LinkedIn ↗</a>
-            </div>
-
-        </div>
-
-        <div class="hero-image">
-            <div class="image-glow"></div>
-            <img src="/Users/shivamkumargupta/Desktop/WhatsApp Image 2026-08-25 at 20.59.33.jpeg" alt="Shivam Kumar Gupta">
-        </div>
-
-    </section>
-
-
     
-    <section class="section" id="about">
 
-        <p class="section-label">GET TO KNOW ME</p>
+    <main>
 
-        <h2 class="section-title">About <span>Me</span></h2>
+        <section class="hero" id="home">
 
-        <div class="about-card">
+            <div class="hero-content">
 
-            <p>
-                I'm Shivam Kumar Gupta, a first-year B.Tech student
-                specializing in Computer Science and Engineering
-                (Artificial Intelligence and Machine Learning)
-                at S-VYASA Deemed to be University.
-            </p>
-
-            <p>
-                I'm currently developing my programming skills
-                in Python, Java, HTML and CSS. My interests include
-                AI, web development and entrepreneurship.
-            </p>
-
-            <p>
-                My goal is to become a skilled software developer
-                and build meaningful technology products that
-                solve real-world problems.
-            </p>
-
-            <div class="education">
-                <h3>Education</h3>
-                <h4>B.Tech – CSE (AI & ML)</h4>
-                <p>S-VYASA Deemed to be University</p>
-                <span>1st Year Student</span>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    
-    <section class="section" id="skills">
-
-        <p class="section-label">WHAT I WORK WITH</p>
-
-        <h2 class="section-title">My <span>Skills</span></h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-card">
-                <h3>HTML5</h3>
-                <p>Web Structure</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>CSS3</h3>
-                <p>Web Design</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Java</h3>
-                <p>Programming</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Python</h3>
-                <p>Programming & AI</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>Git & GitHub</h3>
-                <p>Version Control</p>
-            </div>
-
-            <div class="skill-card">
-                <h3>AI Tools</h3>
-                <p>AI-Assisted Development</p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-   
-    <section class="section">
-
-        <p class="section-label">WHAT EXCITES ME</p>
-
-        <h2 class="section-title">My <span>Interests</span></h2>
-
-        <div class="interests">
-            <span>Artificial Intelligence & ML</span>
-            <span>Web Development</span>
-            <span>Entrepreneurship</span>
-            <span>Startups</span>
-        </div>
-
-    </section>
-
-
-    
-    <section class="section" id="projects">
-
-        <p class="section-label">MY WORK</p>
-
-        <h2 class="section-title">Featured <span>Projects</span></h2>
-
-        <div class="projects-grid">
-
-            <div class="project-card">
-
-                <span class="project-status">IN DEVELOPMENT</span>
-
-                <h3>TraceMind</h3>
-
-                <p>
-                    An AI-powered developer tool that analyzes
-                    errors and stack traces, uses persistent memory
-                    to understand previous incidents, and helps
-                    developers generate post-mortems.
+                <p class="welcome">
+                    WELCOME TO MY PORTFOLIO
                 </p>
 
-                <div class="project-tech">
-                    <span>AI</span>
-                    <span>Developer Tools</span>
-                    <span>Memory</span>
+                <h1>
+                    Hi, I'm <span>Shivam Kumar Gupta</span>
+                </h1>
+
+                <h2>
+                    Aspiring Software Developer
+                </h2>
+
+                <p class="hero-description">
+                    A curious CSE (AI & ML) student exploring
+                    Artificial Intelligence, Software Development
+                    and emerging technologies.
+
+                    I enjoy learning how things work, experimenting
+                    with ideas and building technology that can
+                    make a meaningful difference.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-btn">
+                        Explore My Work →
+                    </a>
+
+                    <a href="#contact" class="secondary-btn">
+                        Get In Touch
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/shivpartapsinghania"
+                        target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/shivam-kumar-gupta-02b748434/"
+                        target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
                 </div>
 
             </div>
 
 
-            <div class="project-card">
+           
 
-                <span class="project-status">IN DEVELOPMENT</span>
+            <div class="hero-image">
 
-                <h3>Log-Lenx</h3>
+                <div class="image-glow"></div>
+
+                <img src="images/profile.jpeg"
+                    alt="Portrait of Shivam Kumar Gupta">
+
+            </div>
+
+        </section>
+
+
+    
+
+        <section class="section" id="about">
+
+            <p class="section-label">
+                GET TO KNOW ME
+            </p>
+
+            <h2 class="section-title">
+                About <span>Me</span>
+            </h2>
+
+            <div class="about-card">
 
                 <p>
-                    Project details coming soon.
-                    Currently under development.
+                    I'm Shivam Kumar Gupta, a first-year B.Tech student
+                    specializing in Computer Science and Engineering
+                    (Artificial Intelligence and Machine Learning)
+                    at S-VYASA Deemed to be University.
                 </p>
 
-                <div class="project-tech">
-                    <span>Coming Soon</span>
+                <p>
+                    I'm currently developing my programming skills
+                    in Python, Java, HTML and CSS. I'm particularly
+                    interested in understanding how technology works
+                    beyond the surface — from software and AI to
+                    emerging areas of computing.
+                </p>
+
+                <p>
+                    I enjoy exploring new ideas, working on projects
+                    and learning through experimentation. My long-term
+                    goal is to become a skilled software developer
+                    and build meaningful technology products that
+                    solve real-world problems.
+                </p>
+
+                <div class="education">
+
+                    <h3>Education</h3>
+
+                    <h4>B.Tech – CSE (AI & ML)</h4>
+
+                    <p>
+                        S-VYASA Deemed to be University
+                    </p>
+
+                    <span>
+                        First Year Student
+                    </span>
+
                 </div>
 
             </div>
 
-        </div>
-
-    </section>
+        </section>
 
 
-    
-    <section class="section contact-section" id="contact">
+        
 
-        <p class="section-label">LET'S CONNECT</p>
+        <section class="section" id="skills">
 
-        <h2 class="section-title">
-            Let's Build Something <span>Great.</span>
-        </h2>
+            <p class="section-label">
+                WHAT I WORK WITH
+            </p>
+
+            <h2 class="section-title">
+                My <span>Skills</span>
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Web Structure</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Web Design & Styling</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Java</h3>
+                    <p>Programming Fundamentals</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Python</h3>
+                    <p>Programming & AI Exploration</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Git & GitHub</h3>
+                    <p>Version Control</p>
+                </div>
+
+                <div class="skill-card">
+                    <h3>AI Tools</h3>
+                    <p>AI-Assisted Development</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+       
+
+        <section class="section" id="interests">
+
+            <p class="section-label">
+                WHAT EXCITES ME
+            </p>
+
+            <h2 class="section-title">
+                Areas of <span>Interest</span>
+            </h2>
+
+            <div class="interests">
+
+                <span>Artificial Intelligence & ML</span>
+
+                <span>Software Development</span>
+
+                <span>Web Development</span>
+
+                <span>Emerging Technologies</span>
+
+                <span>Entrepreneurship</span>
+
+                <span>Startups</span>
+
+            </div>
+
+        </section>
+
+
+        <section class="section" id="projects">
+
+            <p class="section-label">
+                SELECTED WORK
+            </p>
+
+            <h2 class="section-title">
+                Featured <span>Projects</span>
+            </h2>
+
+            <div class="projects-grid">
+
+
+
+                <div class="project-card">
+
+                    <span class="project-status">
+                        IN DEVELOPMENT
+                    </span>
+
+                    <h3>TraceMind</h3>
+
+                    <p>
+                        An AI-powered developer tool designed to analyze
+                        errors and stack traces, use persistent memory
+                        to understand previous incidents, and help
+                        developers generate structured post-mortems.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>AI</span>
+
+                        <span>Developer Tools</span>
+
+                        <span>Persistent Memory</span>
+
+                        <span>Next.js</span>
+
+                    </div>
+
+                </div>
+
+
+                
+
+                <div class="project-card">
+
+                    <span class="project-status">
+                        IN DEVELOPMENT
+                    </span>
+
+                    <h3>Log-Lenx</h3>
+
+                    <p>
+                        An ongoing project currently under development.
+                        More details and technical information
+                        will be shared as the project progresses.
+                    </p>
+
+                    <div class="project-tech">
+
+                        <span>Coming Soon</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        
+
+        <section class="section contact-section" id="contact">
+
+            <p class="section-label">
+                LET'S CONNECT
+            </p>
+
+            <h2 class="section-title">
+                Let's Build Something <span>Great.</span>
+            </h2>
+
+            <p>
+                Have an interesting idea, a collaboration opportunity
+                or simply want to connect?
+
+                I'd be happy to hear from you.
+            </p>
+
+            <a href="mailto:shivamkumargupta2048@gmail.com"
+                class="primary-btn">
+                Send Me an Email →
+            </a>
+
+            <div class="contact-links">
+
+                <a href="mailto:shivamkumargupta2048@gmail.com">
+                    Email
+                </a>
+
+                <a href="https://github.com/shivpartapsinghania"
+                    target="_blank" rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/shivam-kumar-gupta-02b748434/"
+                    target="_blank" rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
 
         <p>
-            Have an interesting idea, collaboration opportunity
-            or just want to connect? Feel free to reach out.
+            © 2026 Shivam Kumar Gupta. All Rights Reserved.
         </p>
 
-        <a href="mailto:shivamkumargupta2048@gmail.com"
-           class="primary-btn">
-            Send Me an Email →
-        </a>
+        <p>
+            Built with curiosity, creativity and code.
+        </p>
 
-        <div class="contact-links">
-
-            <a href="mailto:shivamkumargupta2048@gmail.com">
-                Email
-            </a>
-
-            <a href="https://github.com/shivpartapsinghania" target="_blank">
-                GitHub
-            </a>
-
-            <a href="https://www.linkedin.com/in/shivam-kumar-gupta-02b748434/" target="_blank">
-                LinkedIn
-            </a>
-
-        </div>
-
-    </section>
-
-
-    
-    <footer>
-        <p>© 2026 Shivam Kumar Gupta. All Rights Reserved.</p>
-        <p>Designed & Built with Passion.</p>
     </footer>
 
 </body>
+
 </html>
